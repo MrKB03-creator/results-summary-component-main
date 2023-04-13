@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Outfit', sans-serif;
 }
 /*Main coding section*/
 body {
@@ -53,17 +54,19 @@ body {
 #result__bold-number {
     font-size: 3rem;
     color: white;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .result__Text {
     margin-top: 2rem ;
     line-height: 1.5rem;
+    font-size: 18px;
 }
 
 .result__Text h1 {
     color: white;
     margin-bottom: .5rem;
+    font-weight: 500;
 }
 
 .container__Summary {
@@ -102,19 +105,19 @@ body {
 }
 
 .icon-red {
-    color: red;
+    color: hsl(0, 100%, 67%);
 }
 
 .icon-orange {
-    color: orange;
+    color: hsl(39, 100%, 56%);
 }
 
 .icon-green {
-    color: green;
+    color: hsl(166, 100%, 37%);
 }
 
 .icon-blue {
-    color: blue;
+    color: hsl(234, 85%, 45%);
 }
 
 .summary__List-row__bg-color-reaction {
